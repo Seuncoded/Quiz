@@ -77,18 +77,16 @@ let F9 = 0;
 
 
 
-let audioA1 = new Audio('its plenty.mp3');
-let audioB2 = new Audio('Champion.mp3')
-let audioB3 = new Audio('Basqiua.mp3')
-let audioC4 = new Audio('problem.mp3')
-let audioC5 = new Audio('Do i.mp3')
-let audioC6 = new Audio('omoOpe.mp3')
-let audioD7 = new Audio('Zazu.mp3')
-let audioE8 = new Audio('ReligionNew.mp3')
-let audioF9 = new Audio('last Last.mp3')
+let audioA1 = new Audio('Music/its plenty.mp3');
+let audioB2 = new Audio('Music/Champion.mp3')
+let audioB3 = new Audio('Music/Basqiua.mp3')
+let audioC4 = new Audio('Music/problem.mp3')
+let audioC5 = new Audio('Music/Do i.mp3')
+let audioC6 = new Audio('Music/omoOpe.mp3')
+let audioD7 = new Audio('Music/Zazu.mp3')
+let audioE8 = new Audio('Music/ReligionNew.mp3')
+let audioF9 = new Audio('Music/last Last.mp3')
 
-
-scoreGrade.innerHTML = ""
 
 function checkScore() {
     
@@ -130,6 +128,6 @@ function checkScore() {
         audioF9.pause();
     }
     
-    scoreGrade.innerHTML = ""
+    
 
 }
